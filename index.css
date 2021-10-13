@@ -1,0 +1,82 @@
+/* width and height be used */
+* {
+  box-sizing: border-box;
+}
+
+#showcase {
+  background: url("./images/showcase.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+#showcase h1 {
+  padding-top: 200px;
+  font-size: 60px;
+}
+
+#showcase p {
+  font-size: 20px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+
+#about-section {
+  display: flex;
+  height: 400px;
+}
+
+#about-section img {
+flex: 1;
+}
+
+#about-section div {
+display: flex;
+flex-direction: column;
+flex: 1;
+color: white;
+background-color: #333;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding: 24px;
+}
+
+#about-section div h1{
+  font-size: 32px;
+}
+
+#about-section div p{
+  padding: 16px 0;
+  font-size: 18px;
+}
+
+#features-section {
+ display: flex;
+ height: 300px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feature i {
+  font-size: 50px;
+}
+
+.feature h2 {
+margin: 0;
+}
+
+.feature p {
+  font-size: 18px;
+  margin: 0;
+}
+
+

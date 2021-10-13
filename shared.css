@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  /* margin-left: 20%;( it is thesame wwith the padding 10px 20px unless u want more space) */
+  padding: 10px 20px; 
+  border-radius: 4px;
+}
+
+.nav-item a:hover {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.primary-text {
+  color: #f7c08a;
+}
+
+.dark-text {
+  color: #333;
+}
+
+.light-text {
+  color: #f4f4f4;
+}
+
+.big-heading {
+  font-size: 40px;
+}
+
+.sub-heading{
+  font-size: 18px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 16px 30px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn-light {
+  background-color: #f4f4f4f4;
+  color: #444;
+}
+
+.btn-dark {
+  color: #f4f4f4f4;
+  background-color: #444;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #444;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #f4f4f4f4;
+}
+ 
+.bg-light {
+  background-color: #f4f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background-color: #f7c08a;
+  color:#333 ;
+}
+
+#main-footer {
+  text-align: center;
+   padding: 20px;
+ }
+ 

@@ -1,0 +1,45 @@
+#contact-section {
+  height: 500px;
+  padding-top: 100px;
+}
+
+#contact-section form {
+  margin: auto;
+  width: 400px;
+}
+
+#contact-section .big-heading {
+  margin-bottom: 10px;
+}
+
+.form-group {
+ margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+display: block;
+width: 100%;
+padding: 10px;
+}
+
+.form-group textarea {
+display: block;
+width: 100%;
+padding: 50px 10px;
+}
+#contact-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+  #contact-details .address {
+    width: 300px;
+  }
+
